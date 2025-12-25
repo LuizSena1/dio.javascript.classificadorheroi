@@ -34,7 +34,7 @@ rl.question('Bem Vindo Aventureiro. Porfavor, me diga seu nome! ', (name) => {
                     RANK = 'Radiante';
                     break;
             }
-            console.log(`Cadastro completo, A Guilda lhe da boas vindas, Aqui seu cracha da guilda, você e rank ${RANK}`)
+            console.log(`O Herói de nome ${username} esta no nível de ${RANK}`)
             rl.close();
         });
 });
