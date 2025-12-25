@@ -1,8 +1,6 @@
 const readline = require('readline');
 const {stdin: input, stdout: output} = require('node:process');
-const rl = readline.createInterface({
-     input,
-     output});
+const rl = readline.createInterface({input,output});
 let username = '';
 let XP = 0;
 let RANK;
