@@ -12,31 +12,24 @@ rl.question('Bem Vindo Aventureiro. Porfavor, me diga seu nome! ', (name) => {
                 case (XP < 1000):
                     RANK = 'Ferro';
                     break;
-
                 case (XP <= 2000):
                     RANK = 'Bronze';
                     break;
-
                 case (XP <= 5000):
                     RANK = 'Prata';
                     break;
-
                 case (XP <= 7000):
                     RANK = 'Ouro';
                     break;
-
                 case (XP <= 8000):
                     RANK = 'Platina';
                     break;
-
                 case (XP <= 9000):
                     RANK = 'Ascendente';
                     break;
-
                 case (XP <= 10000):
                     RANK = 'Imortal';
                     break;
-            
                 default:
                     RANK = 'Radiante';
                     break;
